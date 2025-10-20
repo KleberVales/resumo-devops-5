@@ -30,4 +30,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 
 ### 4. Estágio de Controle e Integração
 
+O pipeline de build pode ter estágios adicionais para orquestração:
+
 ## O que acontece no piperline de deployment no OCI DevOps?
