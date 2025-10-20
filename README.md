@@ -21,4 +21,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
    - Empacotamento: Criar o artefato final, como um arquivo .jar, .war, um pacote zip ou, mais comumente, uma imagem de contêiner Docker.
    - Análise de Código: Executar escaneamentos de vulnerabilidade ou análise estática (se configurado).
 
+ ### 3. Estágio de Entrega de Artefatos (Deliver Artifacts Stage)
+
 ## O que acontece no piperline de deployment no OCI DevOps?
