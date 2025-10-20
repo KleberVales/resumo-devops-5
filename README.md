@@ -66,5 +66,7 @@ Para garantir um processo de entrega seguro e confiável, o pipeline de implanta
 | Wait | Pausa: Pausa o pipeline por um tempo especificado.|
 | Blue/Green & Canary | "Estratégias Avançadas: Estágios que orquestram a implantação sem tempo de inatividade, roteando o tráfego do balanceador de carga entre a versão antiga (produção) e a nova (teste) para uma transição suave."|
 
+### Fluxo Típico de um Pipeline de Deployment:
+
 
 
