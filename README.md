@@ -41,3 +41,5 @@ O pipeline de Deployment (Implantação) no OCI DevOps é o componente de Entreg
 
 O pipeline de implantação é composto por uma sequência de estágios (stages) que definem a lógica e a estratégia de entrega.
 
+### 1. Consumo do Artefato
+
