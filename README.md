@@ -43,3 +43,5 @@ O pipeline de implantação é composto por uma sequência de estágios (stages)
 
 ### 1. Consumo do Artefato
 
+O pipeline de implantação é acionado (geralmente pelo pipeline de Build ou manualmente) e sua primeira ação é referenciar os Artefatos que serão implantados (imagens Docker, arquivos de manifesto, pacotes JAR, etc.) que estão armazenados nos repositórios OCI (como OCIR ou Artifact Registry).
+
