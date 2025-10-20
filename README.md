@@ -23,4 +23,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 
  ### 3. Estágio de Entrega de Artefatos (Deliver Artifacts Stage)
 
+ Após o sucesso da construção e dos testes, o pipeline entrega o artefato final para um repositório OCI:
+
 ## O que acontece no piperline de deployment no OCI DevOps?
