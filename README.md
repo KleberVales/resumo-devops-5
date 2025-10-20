@@ -10,4 +10,6 @@ Aqui está um resumo do que acontece em um pipeline de build do OCI DevOps e os 
 
 O pipeline é iniciado (manual ou automaticamente via trigger por um commit no repositório de código) e sua primeira ação é, geralmente, o checkout do código-fonte a partir de um repositório (OCI Code Repository, GitHub, GitLab, etc.).
 
+### 2. Estágio de Build Gerenciado (Managed Build Stage)
+
 ## O que acontece no piperline de deployment no OCI DevOps?
