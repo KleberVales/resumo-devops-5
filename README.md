@@ -59,5 +59,11 @@ Os estágios principais são dedicados a implantar o artefato em um tipo especí
 
 Para garantir um processo de entrega seguro e confiável, o pipeline de implantação inclui estágios de controle e estratégias avançadas:
 
+| Estágio de Controle | Função |
+| Approval | Aprovação Manual: Pausa o pipeline e exige que um usuário ou grupo designado aprove manualmente a implantação antes de prosseguir (típico antes de ambientes críticos como Produção).|
+| Invoke Function | "Integração: Aciona uma função OCI para executar lógica personalizada, como testes de fumaça pós-implantação ou verificações de segurança."|
+| Wait | Pausa: Pausa o pipeline por um tempo especificado.|
+| Blue/Green & Canary | "Estratégias Avançadas: Estágios que orquestram a implantação sem tempo de inatividade, roteando o tráfego do balanceador de carga entre a versão antiga (produção) e a nova (teste) para uma transição suave."|
+
 
 
