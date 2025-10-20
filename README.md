@@ -36,3 +36,5 @@ O pipeline de build pode ter estágios adicionais para orquestração:
 - Estágio de Gatilho de Implantação (Trigger Deployment Stage): Esta é a etapa final mais comum, que inicia automaticamente o Pipeline de Implantação (o componente de Entrega Contínua - CD), passando os artefatos recém-criados.
 
 ## O que acontece no piperline de deployment no OCI DevOps?
+
+O pipeline de Deployment (Implantação) no OCI DevOps é o componente de Entrega Contínua (CD) do fluxo de trabalho. Sua função é pegar os artefatos produzidos pelo pipeline de Build e implantá-los em um ou mais ambientes de destino (como Desenvolvimento, Staging ou Produção) de maneira automatizada e controlada.
