@@ -33,5 +33,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 O pipeline de build pode ter estágios adicionais para orquestração:
 
 - Estágio de Espera (Wait Stage): Adiciona uma pausa temporária no pipeline.
+- Estágio de Gatilho de Implantação (Trigger Deployment Stage): Esta é a etapa final mais comum, que inicia automaticamente o Pipeline de Implantação (o componente de Entrega Contínua - CD), passando os artefatos recém-criados.
 
 ## O que acontece no piperline de deployment no OCI DevOps?
