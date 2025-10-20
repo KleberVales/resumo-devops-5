@@ -12,4 +12,6 @@ O pipeline é iniciado (manual ou automaticamente via trigger por um commit no r
 
 ### 2. Estágio de Build Gerenciado (Managed Build Stage)
 
+Este é o coração do pipeline de build, onde a maior parte do trabalho é feita.
+
 ## O que acontece no piperline de deployment no OCI DevOps?
