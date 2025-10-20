@@ -57,3 +57,7 @@ Os estágios principais são dedicados a implantar o artefato em um tipo especí
 
 ### 3. Estágios de Controle e Estratégia
 
+Para garantir um processo de entrega seguro e confiável, o pipeline de implantação inclui estágios de controle e estratégias avançadas:
+
+
+
