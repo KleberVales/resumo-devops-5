@@ -26,5 +26,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
  Após o sucesso da construção e dos testes, o pipeline entrega o artefato final para um repositório OCI:
 
  - Armazenamento: O artefato (por exemplo, a imagem Docker) é enviado para o OCI Registry (OCIR) ou para o OCI Artifact Registry.
+ - Definição: O artefato é definido no serviço OCI DevOps como um Artifact para que possa ser referenciado e usado pelo pipeline de implantação posteriormente.
 
 ## O que acontece no piperline de deployment no OCI DevOps?
