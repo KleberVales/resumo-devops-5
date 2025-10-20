@@ -6,4 +6,6 @@ O pipeline de build (construção) no OCI DevOps é o componente de Integração
 
 Aqui está um resumo do que acontece em um pipeline de build do OCI DevOps e os estágios comuns envolvidos:
 
+### 1. Início e Checkout do Código
+
 ## O que acontece no piperline de deployment no OCI DevOps?
