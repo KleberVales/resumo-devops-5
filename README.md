@@ -17,5 +17,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 - Instruções de Execução: O estágio Managed Build é guiado por um arquivo de especificação de build, chamado de build_spec.yaml, que você inclui no seu repositório de código.
 - Ações Comuns:
    - Compilação: Compilar o código-fonte (por exemplo, Java, .NET, Node.js) em binários executáveis.
+   - Teste: Executar testes de unidade e testes de integração para validar a funcionalidade e a qualidade do código.
 
 ## O que acontece no piperline de deployment no OCI DevOps?
