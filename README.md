@@ -18,5 +18,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 - Ações Comuns:
    - Compilação: Compilar o código-fonte (por exemplo, Java, .NET, Node.js) em binários executáveis.
    - Teste: Executar testes de unidade e testes de integração para validar a funcionalidade e a qualidade do código.
+   - Empacotamento: Criar o artefato final, como um arquivo .jar, .war, um pacote zip ou, mais comumente, uma imagem de contêiner Docker.
 
 ## O que acontece no piperline de deployment no OCI DevOps?
