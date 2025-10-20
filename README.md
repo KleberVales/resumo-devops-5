@@ -68,5 +68,13 @@ Para garantir um processo de entrega seguro e confiável, o pipeline de implanta
 
 ### Fluxo Típico de um Pipeline de Deployment:
 
+Um fluxo de CD pode ter a seguinte estrutura sequencial:
+
+1. Deploy to Instance Group (DEV): Implanta o artefato no ambiente de desenvolvimento.
+2. Invoke Function: Executa testes automatizados no ambiente DEV.
+3. Approval: Exige aprovação manual para avançar para Staging.]
+4. Deploy to OKE (STAGING): Implanta a mesma versão no ambiente de Staging.
+5. Blue/Green Deployment (PROD): Implanta a versão mais recente em um ambiente inativo e, após validação, troca o tráfego para a nova versão.
+
 
 
