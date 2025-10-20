@@ -38,3 +38,6 @@ O pipeline de build pode ter estágios adicionais para orquestração:
 ## O que acontece no piperline de deployment no OCI DevOps?
 
 O pipeline de Deployment (Implantação) no OCI DevOps é o componente de Entrega Contínua (CD) do fluxo de trabalho. Sua função é pegar os artefatos produzidos pelo pipeline de Build e implantá-los em um ou mais ambientes de destino (como Desenvolvimento, Staging ou Produção) de maneira automatizada e controlada.
+
+O pipeline de implantação é composto por uma sequência de estágios (stages) que definem a lógica e a estratégia de entrega.
+
