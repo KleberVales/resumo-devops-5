@@ -55,3 +55,5 @@ Os estágios principais são dedicados a implantar o artefato em um tipo especí
 | Deploy to Instance Group | Instâncias OCI Compute | Implanta pacotes de software em um grupo de instâncias de máquinas virtuais ou bare metal (requer o agente OCI DevOps instalado).| 
 | Deploy to Function | OCI Functions (Serverless) | Implanta o código como uma função serverless no OCI Functions.| 
 
+### 3. Estágios de Controle e Estratégia
+
