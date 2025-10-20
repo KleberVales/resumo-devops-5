@@ -32,4 +32,6 @@ Este é o coração do pipeline de build, onde a maior parte do trabalho é feit
 
 O pipeline de build pode ter estágios adicionais para orquestração:
 
+- Estágio de Espera (Wait Stage): Adiciona uma pausa temporária no pipeline.
+
 ## O que acontece no piperline de deployment no OCI DevOps?
