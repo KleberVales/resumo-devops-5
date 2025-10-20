@@ -49,3 +49,9 @@ O pipeline de implantação é acionado (geralmente pelo pipeline de Build ou ma
 
 Os estágios principais são dedicados a implantar o artefato em um tipo específico de ambiente OCI (o Environment):
 
+| Estágio de Implantação | Ambiente de Destino | Descrição |
+|------------------------|---------------------|-----------|
+| Deploy to OKE | Cluster OKE (Kubernetes) | Implanta uma imagem de contêiner ou um gráfico Helm no seu cluster Kubernetes gerenciado pela OCI.|
+| Deploy to Instance Group | Instâncias OCI Compute | Implanta pacotes de software em um grupo de instâncias de máquinas virtuais ou bare metal (requer o agente OCI DevOps instalado).| 
+| Deploy to Function | OCI Functions (Serverless) | Implanta o código como uma função serverless no OCI Functions.| 
+
