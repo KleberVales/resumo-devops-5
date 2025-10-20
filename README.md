@@ -47,3 +47,5 @@ O pipeline de implantação é acionado (geralmente pelo pipeline de Build ou ma
 
 ### 2. Estágios de Implantação Específicos
 
+Os estágios principais são dedicados a implantar o artefato em um tipo específico de ambiente OCI (o Environment):
+
